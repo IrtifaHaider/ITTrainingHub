@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Registration Form</h1>
+		<form action="regform.php" method="POST">
+			
+            <div class="user">
+                <label for="user"><b>User</b></label>
+                <input type="radio" name="user" value="trainer" required> Trainer
+                <input type="radio" name="user" value="trainee" required> Trainee
+            </div>
+			<label for="fullname"><b>Full Name</b></label>
+			<input type="text" placeholder="Enter Full Name" name="fullname" required>
+
+			<label for="email"><b>Email</b></label>
+			<input type="email" placeholder="Enter Email" name="email" required>
+
+			<label for="username"><b>Username</b></label>
+			<input type="text" placeholder="Enter username" name="username" required>
+
+			<label for="password"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="password" required>
+            <div class="gender">
+                <label for="gender"><b>Gender</b></label>
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female" required> Female
+                <input type="radio" name="gender" value="other" required> Other
+            </div>
+            
+			<button type="submit" class="registerbtn">Register</button>
+		</form>
+	</div>
+</body>
+</html>

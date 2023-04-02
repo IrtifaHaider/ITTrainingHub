@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #240e0e;
+    color: #e6a3129c;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul 
+{
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin-right: 90px;
+}
+nav a {
+    color: #928989;
+    text-decoration: rgb(235, 165, 96);
+    font-weight: bold;
+    font-size: 26px;
+}
+.hero {
+    background-image: url("/D2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #49053e;
+}
+
+.hero p {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #191f04;
+}
+
+.btn {
+    background-color: #0ebfcc;
+    color: #ad1212;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 26px;
+    transition: all 0.3s ease-in-out;
+}
+.btn1 {
+    background-color: #240e0e;
+    color: #928989;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 26px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #E55D00;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style for footer */
+footer {
+    background-color: #333;
+    color: #0a023a;
+    padding: 40px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+footer p:first-child {
+    margin-top: 0;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
